@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="背单词.exe" version="1.0.0.0" publicKeyToken="e1526f94b8550633" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="9ec3742470a0301bdae09f9c5f3e3c61_c7bdae19ebc4b7455fb1773accfc1e178b8215d9 [最大宽度 2400 最大高度 1800] [64x64].ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="背单词" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="背单词.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+            如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换 
+            requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 节点将会禁用文件和注册表虚拟化。
+            如果要利用文件和注册表虚拟化实现向后
+            兼容性，则删除 requestedExecutionLevel 节点。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xMtD34w6B/K4K0KcicS8yaA13uw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FceHjP8ac3Cqn8GS5M+t1FDOP68=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="259464">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>louROCBjNcyBAgegwgoNzvKILv4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll" size="42904">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs.resources" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="zh-Hans" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mes6614yjCutpJCF9fIV+Bk9yPc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="背单词.exe" size="627656">
+      <assemblyIdentity name="背单词" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ca2CaWuew0oQM6Db0DQF+91b2sQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="9ec3742470a0301bdae09f9c5f3e3c61_c7bdae19ebc4b7455fb1773accfc1e178b8215d9 [最大宽度 2400 最大高度 1800] [64x64].ico" size="12862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QXM+ONB0mIJ6aN09cj+ujsRH3tY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 此应用程序设计使用的所有 Windows 版本的列表。Windows 将会自动选择最兼容的环境。-->
+      <!-- 如果应用程序设计使用 Windows 7，请取消注释以下 supportedOS 节点-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Andrewy-PC\Andrewy" issuerKeyHash="abc428880b646fb4f72936f46d7f0247b5cbcb61" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pNK7WEqPZZS3fgm0yY5twA3CtkU=</DigestValue></Reference></SignedInfo><SignatureValue>QS2Zaqko53BYLDUhooLTv5Rzb/BN7xs8lzvlVG3fPfjONdrXt2UIUp1X3cgjJfqj+WiiHkGXoBxk2ieUgXWlGFo7uV9xd0ZHS5JjcKGwWL43hsqIFJu6utbU3BKUNlMGWLTNvQAQ7mC3GZ6RDNtbW5nB9lPrj/isxf9DvXDeeyo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2Xr8PLZNXf9robwq9csYALH/FlNbq35H6n3oyNzjDSXvBZ65a3QzUbmJx1U400YM0J8BYUZ7zAA17KmOJxiVcwsQ5nGX/ZZLa+gvmnTNpVlVTnv0HYvLBTXzq7S1foH3fHOpNFDLd38H9xlbjINYAHpeTKooej+sKcNusuDi0Kc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="45b6c20dc06d8ec9b4097eb794658f4a58bbd2a4" Description="" Url=""><as:assemblyIdentity name="背单词.exe" version="1.0.0.0" publicKeyToken="e1526f94b8550633" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Andrewy-PC\Andrewy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Vnky1ZBMSd9kmkAknxiGslw0Ptk=</DigestValue></Reference></SignedInfo><SignatureValue>InpuxDOHBgngQ2zFNRuWAmYrPnI7l045DwS6ou0aG9L59oPZDp8N/4X3Tu3QVzkvK0MK5biXJYVlF4vQLkaJqFXGO/QjRatgZJvGo8wvlAlPiF6/+lsGHPIvLIjg68iQvRPYVYFhoYwGQlVMyODShURf8mN0K3qUQ0ZbXh3mOrQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2Xr8PLZNXf9robwq9csYALH/FlNbq35H6n3oyNzjDSXvBZ65a3QzUbmJx1U400YM0J8BYUZ7zAA17KmOJxiVcwsQ5nGX/ZZLa+gvmnTNpVlVTnv0HYvLBTXzq7S1foH3fHOpNFDLd38H9xlbjINYAHpeTKooej+sKcNusuDi0Kc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQbTomhPIibblPV90gkodWZDANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAQQBuAGQAcgBlAHcAeQAtAFAAQwBcAEEAbgBkAHIAZQB3AHkwHhcNMTkwODE3MTA1NDE5WhcNMjAwODE2MTY1NDE5WjAvMS0wKwYDVQQDHiQAQQBuAGQAcgBlAHcAeQAtAFAAQwBcAEEAbgBkAHIAZQB3AHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANl6/Dy2TV3/a6G8KvXLGACx/xZTW6t+R+p96Mjc4w0l7wWeuWt0M1G5icdVONNGDNCfAWFGe8wANeypjicYlXMLEOZxl/2WS2voL5p0zaVZVU579B2LywU186u0tX6B93xzqTRQy3d/B/cZW4yDWAB6XkyqKHo/rCnDbrLg4tCnAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAL0HAxMl7VBXUz7SXGZWjJPJQQHv2txXRRP7UNA3TpRhL2KE2wjodJ6ggr1Wi6V3Inm0dPnzjBttSPLzzdAlsJ9WEqNUo1ec4TghYte3ivLglpaglLwINrDmog09c96KKnqok5zfds2l/OLx25ZqBMtsYt/Dfs0AfWHu/bqhA1ms=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
